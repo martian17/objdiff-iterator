@@ -1,5 +1,5 @@
 # Object Diff Iterator
-## Motibation
+## Motivation
 There exists another object diffing library called `deep-object-diff`, but the output is difficult to process in some use cases due to it being consisting of nested objects. This library aims to simplify the comarison by wrapping the logic around a generator function, in turn exposing a simpler iterator API.
 
 ## Example
