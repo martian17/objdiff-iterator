@@ -53,7 +53,7 @@ A JS path to the target location in the object.
 It can either contain member access operators, or square brackets containing string keys.  
 examples:
 `'.bar[1].baz'`
-`'.bar.["123baz"]'`
+`'.bar["123baz"]'`
 
 ### Diff.o1
 Content of the path in the first obejct
