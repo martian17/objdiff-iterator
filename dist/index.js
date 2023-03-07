@@ -59,6 +59,13 @@ export const objdiff = function* (o1, o2) {
                 yield res;
             }
         }
+        for (let i = o1.length; i < o2.length; i++) {
+            yield {
+                path: `[${i}]`,
+                o1: undefined,
+                o2: o2[i]
+            };
+        }
     }
     else {
         //console.log("type other and same",o1,o2,t1,t2);
