@@ -55,10 +55,10 @@ examples:
 `'.bar[1].baz'`
 `'.bar["123baz"]'`
 
-### Diff.o1
+### Diff.o1: any
 Content of the path in the first obejct
 
-### Diff.o2
+### Diff.o2: any
 Content of the path in the second obejct
 
 
